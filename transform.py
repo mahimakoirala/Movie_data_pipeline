@@ -16,6 +16,9 @@ def load_movie_details():
         try:
             with open(file_name, "r", encoding = 'utf-8') as file:
               movie_details = json.load(file)
+            if movie_details:
+                logger.info(f"First movie record: {movie_details[0]}")
+                logger.info(f"Available keys: {movie_details[0].keys()}")
             all_movie_details.extend(movie_details)
             logger.info(f"loaded {len(movie_details)} movie details for language '{lang}' from  {file_name}")
         except FileNotFoundError:
@@ -27,13 +30,12 @@ def create_fact_movies(all_movie_details):
     fact_movies = []
     for movie in all_movie_details:
         temp_dict = {
-            'movie_id': movie['movie_id'],
+            'movie_id': movie['id'],
             'release_date': movie['release_date'],
             'popularity': movie['popularity'],
             'revenue': movie['revenue'],
             'runtime': movie['runtime'],
             'vote_average': movie['vote_average'],
-            'vote_count': movie['vote_count'],
             'budget': movie['budget'],
         }
         fact_movies.append(temp_dict)
@@ -43,7 +45,7 @@ def create_dim_movies(all_movie_details):
     dim_movies = []
     for movie in all_movie_details:
         temp_dict = {
-          'movie_id': movie['movie_id'],
+          'movie_id': movie['id'],
           'title': movie['title'],
           'original_language': movie['original_language'],
         }
@@ -74,7 +76,7 @@ def create_bridge_genres(all_movie_details, dim_genres):
     for movie in all_movie_details:
         for genre_name in movie['genres']:
             temp_dict = {
-                'movie_id': movie['movie_id'],
+                'movie_id': movie['id'],
                 'genre_id': genre_lookup[genre_name]
             }
             bridge_genres.append(temp_dict)
@@ -105,7 +107,7 @@ def create_bridge_cast(all_movies_details, dim_cast):
     for movie in all_movies_details:
       for cast_order, cast_name in enumerate(movie['cast'], start = 1):
           temp_dict = {
-              'movie_id': movie['movie_id'],
+              'movie_id': movie['id'],
               'cast_id': cast_lookup[cast_name],
               'cast_order': cast_order
           }
@@ -147,7 +149,7 @@ def create_dataframes(all_movie_details):
     fact_movies_df['runtime'].replace(0, pd.NA).astype('Int64')  # Replace 0 with NA and convert to nullable integer type
     fact_movies_df['budget'].replace(0, pd.NA).astype('Int64')  # Replace 0 with NA and convert to nullable integer type
 
-    #vote_count stays as int
+  
     #popularity and vore_average stay as float
 
     #checking for nulls

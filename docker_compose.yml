@@ -1,0 +1,13 @@
+version: '5.2'
+services:
+  db: 
+    image: postgres:16
+    container_name: movies_postgres
+    ports:
+      - "5433:5432"
+    env_file:
+      - .env
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+volumes:
+  postgres_data

@@ -1,0 +1,100 @@
+2026-11-16 11:01:19 -INFO - __main__ - load.py:54 - starting data load pipeline....
+2026-11-16 11:01:19 -INFO - transform - transform.py:20 - loaded 495 movie details for language 'en' from  details/en_movie_details.json
+2026-11-16 11:01:19 -INFO - transform - transform.py:20 - loaded 509 movie details for language 'hi' from  details/hi_movie_details.json
+2026-11-16 11:01:19 -INFO - transform - transform.py:23 - total loaded movies: 1004.
+2026-11-16 11:09:20 -INFO - __main__ - load.py:54 - starting data load pipeline....
+2026-11-16 11:09:20 -INFO - transform - transform.py:20 - First movie record: {'id': 755898, 'title': 'War of the Worlds', 'original_language': 'en', 'release_date': '2025-07-29', 'budget': 10000000, 'revenue': 0, 'runtime': 91, 'popularity': 106.4088, 'vote_average': 4.04, 'genres': ['Science Fiction', 'Thriller'], 'cast': ['Ice Cube', 'Eva Longoria', 'Clark Gregg', 'Iman Benson', 'Henry Hunter Hall']}
+2026-11-16 11:09:20 -INFO - transform - transform.py:21 - Available keys: dict_keys(['id', 'title', 'original_language', 'release_date', 'budget', 'revenue', 'runtime', 'popularity', 'vote_average', 'genres', 'cast'])
+2026-11-16 11:09:20 -INFO - transform - transform.py:23 - loaded 495 movie details for language 'en' from  details/en_movie_details.json
+2026-11-16 11:09:20 -INFO - transform - transform.py:20 - First movie record: {'id': 1291608, 'title': 'Dhurandhar', 'original_language': 'hi', 'release_date': '2025-12-05', 'budget': 24000000, 'revenue': 136599112, 'runtime': 214, 'popularity': 16.3726, 'vote_average': 7.339, 'genres': ['Action', 'Crime', 'Thriller'], 'cast': ['Ranveer Singh', 'Akshaye Khanna', 'R. Madhavan', 'Arjun Rampal', 'Sanjay Dutt']}
+2026-11-16 11:09:20 -INFO - transform - transform.py:21 - Available keys: dict_keys(['id', 'title', 'original_language', 'release_date', 'budget', 'revenue', 'runtime', 'popularity', 'vote_average', 'genres', 'cast'])
+2026-11-16 11:09:20 -INFO - transform - transform.py:23 - loaded 509 movie details for language 'hi' from  details/hi_movie_details.json
+2026-11-16 11:09:20 -INFO - transform - transform.py:26 - total loaded movies: 1004.
+2026-11-16 11:09:37 -INFO - __main__ - load.py:54 - starting data load pipeline....
+2026-11-16 11:09:37 -INFO - transform - transform.py:20 - First movie record: {'id': 755898, 'title': 'War of the Worlds', 'original_language': 'en', 'release_date': '2025-07-29', 'budget': 10000000, 'revenue': 0, 'runtime': 91, 'popularity': 106.4088, 'vote_average': 4.04, 'genres': ['Science Fiction', 'Thriller'], 'cast': ['Ice Cube', 'Eva Longoria', 'Clark Gregg', 'Iman Benson', 'Henry Hunter Hall']}
+2026-11-16 11:09:37 -INFO - transform - transform.py:21 - Available keys: dict_keys(['id', 'title', 'original_language', 'release_date', 'budget', 'revenue', 'runtime', 'popularity', 'vote_average', 'genres', 'cast'])
+2026-11-16 11:09:37 -INFO - transform - transform.py:23 - loaded 495 movie details for language 'en' from  details/en_movie_details.json
+2026-11-16 11:09:37 -INFO - transform - transform.py:20 - First movie record: {'id': 1291608, 'title': 'Dhurandhar', 'original_language': 'hi', 'release_date': '2025-12-05', 'budget': 24000000, 'revenue': 136599112, 'runtime': 214, 'popularity': 16.3726, 'vote_average': 7.339, 'genres': ['Action', 'Crime', 'Thriller'], 'cast': ['Ranveer Singh', 'Akshaye Khanna', 'R. Madhavan', 'Arjun Rampal', 'Sanjay Dutt']}
+2026-11-16 11:09:37 -INFO - transform - transform.py:21 - Available keys: dict_keys(['id', 'title', 'original_language', 'release_date', 'budget', 'revenue', 'runtime', 'popularity', 'vote_average', 'genres', 'cast'])
+2026-11-16 11:09:37 -INFO - transform - transform.py:23 - loaded 509 movie details for language 'hi' from  details/hi_movie_details.json
+2026-11-16 11:09:37 -INFO - transform - transform.py:26 - total loaded movies: 1004.
+2026-11-16 11:10:15 -INFO - __main__ - load.py:54 - starting data load pipeline....
+2026-11-16 11:10:15 -INFO - transform - transform.py:20 - First movie record: {'id': 755898, 'title': 'War of the Worlds', 'original_language': 'en', 'release_date': '2025-07-29', 'budget': 10000000, 'revenue': 0, 'runtime': 91, 'popularity': 106.4088, 'vote_average': 4.04, 'genres': ['Science Fiction', 'Thriller'], 'cast': ['Ice Cube', 'Eva Longoria', 'Clark Gregg', 'Iman Benson', 'Henry Hunter Hall']}
+2026-11-16 11:10:15 -INFO - transform - transform.py:21 - Available keys: dict_keys(['id', 'title', 'original_language', 'release_date', 'budget', 'revenue', 'runtime', 'popularity', 'vote_average', 'genres', 'cast'])
+2026-11-16 11:10:15 -INFO - transform - transform.py:23 - loaded 495 movie details for language 'en' from  details/en_movie_details.json
+2026-11-16 11:10:15 -INFO - transform - transform.py:20 - First movie record: {'id': 1291608, 'title': 'Dhurandhar', 'original_language': 'hi', 'release_date': '2025-12-05', 'budget': 24000000, 'revenue': 136599112, 'runtime': 214, 'popularity': 16.3726, 'vote_average': 7.339, 'genres': ['Action', 'Crime', 'Thriller'], 'cast': ['Ranveer Singh', 'Akshaye Khanna', 'R. Madhavan', 'Arjun Rampal', 'Sanjay Dutt']}
+2026-11-16 11:10:15 -INFO - transform - transform.py:21 - Available keys: dict_keys(['id', 'title', 'original_language', 'release_date', 'budget', 'revenue', 'runtime', 'popularity', 'vote_average', 'genres', 'cast'])
+2026-11-16 11:10:15 -INFO - transform - transform.py:23 - loaded 509 movie details for language 'hi' from  details/hi_movie_details.json
+2026-11-16 11:10:15 -INFO - transform - transform.py:26 - total loaded movies: 1004.
+2026-11-16 11:13:08 -INFO - __main__ - load.py:54 - starting data load pipeline....
+2026-11-16 11:13:08 -INFO - transform - transform.py:20 - First movie record: {'id': 755898, 'title': 'War of the Worlds', 'original_language': 'en', 'release_date': '2025-07-29', 'budget': 10000000, 'revenue': 0, 'runtime': 91, 'popularity': 106.4088, 'vote_average': 4.04, 'genres': ['Science Fiction', 'Thriller'], 'cast': ['Ice Cube', 'Eva Longoria', 'Clark Gregg', 'Iman Benson', 'Henry Hunter Hall']}
+2026-11-16 11:13:08 -INFO - transform - transform.py:21 - Available keys: dict_keys(['id', 'title', 'original_language', 'release_date', 'budget', 'revenue', 'runtime', 'popularity', 'vote_average', 'genres', 'cast'])
+2026-11-16 11:13:08 -INFO - transform - transform.py:23 - loaded 495 movie details for language 'en' from  details/en_movie_details.json
+2026-11-16 11:13:08 -INFO - transform - transform.py:20 - First movie record: {'id': 1291608, 'title': 'Dhurandhar', 'original_language': 'hi', 'release_date': '2025-12-05', 'budget': 24000000, 'revenue': 136599112, 'runtime': 214, 'popularity': 16.3726, 'vote_average': 7.339, 'genres': ['Action', 'Crime', 'Thriller'], 'cast': ['Ranveer Singh', 'Akshaye Khanna', 'R. Madhavan', 'Arjun Rampal', 'Sanjay Dutt']}
+2026-11-16 11:13:08 -INFO - transform - transform.py:21 - Available keys: dict_keys(['id', 'title', 'original_language', 'release_date', 'budget', 'revenue', 'runtime', 'popularity', 'vote_average', 'genres', 'cast'])
+2026-11-16 11:13:08 -INFO - transform - transform.py:23 - loaded 509 movie details for language 'hi' from  details/hi_movie_details.json
+2026-11-16 11:13:08 -INFO - transform - transform.py:26 - total loaded movies: 1004.
+2026-11-16 11:15:00 -INFO - __main__ - load.py:54 - starting data load pipeline....
+2026-11-16 11:15:00 -INFO - transform - transform.py:20 - First movie record: {'id': 755898, 'title': 'War of the Worlds', 'original_language': 'en', 'release_date': '2025-07-29', 'budget': 10000000, 'revenue': 0, 'runtime': 91, 'popularity': 106.4088, 'vote_average': 4.04, 'genres': ['Science Fiction', 'Thriller'], 'cast': ['Ice Cube', 'Eva Longoria', 'Clark Gregg', 'Iman Benson', 'Henry Hunter Hall']}
+2026-11-16 11:15:00 -INFO - transform - transform.py:21 - Available keys: dict_keys(['id', 'title', 'original_language', 'release_date', 'budget', 'revenue', 'runtime', 'popularity', 'vote_average', 'genres', 'cast'])
+2026-11-16 11:15:00 -INFO - transform - transform.py:23 - loaded 495 movie details for language 'en' from  details/en_movie_details.json
+2026-11-16 11:15:00 -INFO - transform - transform.py:20 - First movie record: {'id': 1291608, 'title': 'Dhurandhar', 'original_language': 'hi', 'release_date': '2025-12-05', 'budget': 24000000, 'revenue': 136599112, 'runtime': 214, 'popularity': 16.3726, 'vote_average': 7.339, 'genres': ['Action', 'Crime', 'Thriller'], 'cast': ['Ranveer Singh', 'Akshaye Khanna', 'R. Madhavan', 'Arjun Rampal', 'Sanjay Dutt']}
+2026-11-16 11:15:00 -INFO - transform - transform.py:21 - Available keys: dict_keys(['id', 'title', 'original_language', 'release_date', 'budget', 'revenue', 'runtime', 'popularity', 'vote_average', 'genres', 'cast'])
+2026-11-16 11:15:00 -INFO - transform - transform.py:23 - loaded 509 movie details for language 'hi' from  details/hi_movie_details.json
+2026-11-16 11:15:00 -INFO - transform - transform.py:26 - total loaded movies: 1004.
+2026-11-16 11:15:00 -INFO - transform - transform.py:121 - dim_movies: No null values found.
+2026-11-16 11:15:00 -INFO - transform - transform.py:121 - dim_genres: No null values found.
+2026-11-16 11:15:00 -INFO - transform - transform.py:121 - dim_cast: No null values found.
+2026-11-16 11:15:00 -INFO - transform - transform.py:121 - fact_movies: No null values found.
+2026-11-16 11:15:00 -INFO - transform - transform.py:121 - bridge_genres: No null values found.
+2026-11-16 11:15:00 -INFO - transform - transform.py:121 - bridge_cast: No null values found.
+2026-11-16 11:15:22 -INFO - __main__ - load.py:54 - starting data load pipeline....
+2026-11-16 11:15:22 -INFO - transform - transform.py:20 - First movie record: {'id': 755898, 'title': 'War of the Worlds', 'original_language': 'en', 'release_date': '2025-07-29', 'budget': 10000000, 'revenue': 0, 'runtime': 91, 'popularity': 106.4088, 'vote_average': 4.04, 'genres': ['Science Fiction', 'Thriller'], 'cast': ['Ice Cube', 'Eva Longoria', 'Clark Gregg', 'Iman Benson', 'Henry Hunter Hall']}
+2026-11-16 11:15:22 -INFO - transform - transform.py:21 - Available keys: dict_keys(['id', 'title', 'original_language', 'release_date', 'budget', 'revenue', 'runtime', 'popularity', 'vote_average', 'genres', 'cast'])
+2026-11-16 11:15:22 -INFO - transform - transform.py:23 - loaded 495 movie details for language 'en' from  details/en_movie_details.json
+2026-11-16 11:15:22 -INFO - transform - transform.py:20 - First movie record: {'id': 1291608, 'title': 'Dhurandhar', 'original_language': 'hi', 'release_date': '2025-12-05', 'budget': 24000000, 'revenue': 136599112, 'runtime': 214, 'popularity': 16.3726, 'vote_average': 7.339, 'genres': ['Action', 'Crime', 'Thriller'], 'cast': ['Ranveer Singh', 'Akshaye Khanna', 'R. Madhavan', 'Arjun Rampal', 'Sanjay Dutt']}
+2026-11-16 11:15:22 -INFO - transform - transform.py:21 - Available keys: dict_keys(['id', 'title', 'original_language', 'release_date', 'budget', 'revenue', 'runtime', 'popularity', 'vote_average', 'genres', 'cast'])
+2026-11-16 11:15:22 -INFO - transform - transform.py:23 - loaded 509 movie details for language 'hi' from  details/hi_movie_details.json
+2026-11-16 11:15:22 -INFO - transform - transform.py:26 - total loaded movies: 1004.
+2026-11-16 11:15:23 -INFO - transform - transform.py:121 - dim_movies: No null values found.
+2026-11-16 11:15:23 -INFO - transform - transform.py:121 - dim_genres: No null values found.
+2026-11-16 11:15:23 -INFO - transform - transform.py:121 - dim_cast: No null values found.
+2026-11-16 11:15:23 -INFO - transform - transform.py:121 - fact_movies: No null values found.
+2026-11-16 11:15:23 -INFO - transform - transform.py:121 - bridge_genres: No null values found.
+2026-11-16 11:15:23 -INFO - transform - transform.py:121 - bridge_cast: No null values found.
+2026-11-16 11:15:23 -ERROR - __main__ - load.py:47 - error loading data into 'dim_movies' table in postgres: (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5433 failed: FATAL:  database "movies_postgres" does not exist
+
+(Background on this error at: https://sqlalche.me/e/21/e3q8)
+2026-11-16 11:15:23 -ERROR - __main__ - load.py:47 - error loading data into 'dim_genres' table in postgres: (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5433 failed: FATAL:  database "movies_postgres" does not exist
+
+(Background on this error at: https://sqlalche.me/e/21/e3q8)
+2026-11-16 11:15:23 -ERROR - __main__ - load.py:47 - error loading data into 'dim_cast' table in postgres: (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5433 failed: FATAL:  database "movies_postgres" does not exist
+
+(Background on this error at: https://sqlalche.me/e/21/e3q8)
+2026-11-16 11:15:23 -ERROR - __main__ - load.py:47 - error loading data into 'bridge_genres' table in postgres: (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5433 failed: FATAL:  database "movies_postgres" does not exist
+
+(Background on this error at: https://sqlalche.me/e/21/e3q8)
+2026-11-16 11:15:23 -ERROR - __main__ - load.py:47 - error loading data into 'bridge_cast' table in postgres: (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5433 failed: FATAL:  database "movies_postgres" does not exist
+
+(Background on this error at: https://sqlalche.me/e/21/e3q8)
+2026-11-16 11:23:04 -INFO - __main__ - load.py:54 - starting data load pipeline....
+2026-11-16 11:23:04 -INFO - transform - transform.py:20 - First movie record: {'id': 755898, 'title': 'War of the Worlds', 'original_language': 'en', 'release_date': '2025-07-29', 'budget': 10000000, 'revenue': 0, 'runtime': 91, 'popularity': 106.4088, 'vote_average': 4.04, 'genres': ['Science Fiction', 'Thriller'], 'cast': ['Ice Cube', 'Eva Longoria', 'Clark Gregg', 'Iman Benson', 'Henry Hunter Hall']}
+2026-11-16 11:23:04 -INFO - transform - transform.py:21 - Available keys: dict_keys(['id', 'title', 'original_language', 'release_date', 'budget', 'revenue', 'runtime', 'popularity', 'vote_average', 'genres', 'cast'])
+2026-11-16 11:23:04 -INFO - transform - transform.py:23 - loaded 495 movie details for language 'en' from  details/en_movie_details.json
+2026-11-16 11:23:04 -INFO - transform - transform.py:20 - First movie record: {'id': 1291608, 'title': 'Dhurandhar', 'original_language': 'hi', 'release_date': '2025-12-05', 'budget': 24000000, 'revenue': 136599112, 'runtime': 214, 'popularity': 16.3726, 'vote_average': 7.339, 'genres': ['Action', 'Crime', 'Thriller'], 'cast': ['Ranveer Singh', 'Akshaye Khanna', 'R. Madhavan', 'Arjun Rampal', 'Sanjay Dutt']}
+2026-11-16 11:23:04 -INFO - transform - transform.py:21 - Available keys: dict_keys(['id', 'title', 'original_language', 'release_date', 'budget', 'revenue', 'runtime', 'popularity', 'vote_average', 'genres', 'cast'])
+2026-11-16 11:23:04 -INFO - transform - transform.py:23 - loaded 509 movie details for language 'hi' from  details/hi_movie_details.json
+2026-11-16 11:23:04 -INFO - transform - transform.py:26 - total loaded movies: 1004.
+2026-11-16 11:23:04 -INFO - transform - transform.py:121 - dim_movies: No null values found.
+2026-11-16 11:23:04 -INFO - transform - transform.py:121 - dim_genres: No null values found.
+2026-11-16 11:23:04 -INFO - transform - transform.py:121 - dim_cast: No null values found.
+2026-11-16 11:23:04 -INFO - transform - transform.py:121 - fact_movies: No null values found.
+2026-11-16 11:23:04 -INFO - transform - transform.py:121 - bridge_genres: No null values found.
+2026-11-16 11:23:04 -INFO - transform - transform.py:121 - bridge_cast: No null values found.
+2026-11-16 11:23:05 -INFO - __main__ - load.py:45 - data 1004 rows into 'dim_movies' table in postgres
+2026-11-16 11:23:05 -INFO - __main__ - load.py:45 - data 19 rows into 'dim_genres' table in postgres
+2026-11-16 11:23:05 -INFO - __main__ - load.py:45 - data 2710 rows into 'dim_cast' table in postgres
+2026-11-16 11:23:05 -INFO - __main__ - load.py:45 - data 2462 rows into 'bridge_genres' table in postgres
+2026-11-16 11:23:05 -INFO - __main__ - load.py:45 - data 4817 rows into 'bridge_cast' table in postgres
+2026-11-16 11:23:05 -INFO - __main__ - load.py:50 - loaded 1004 rows into 'fact_movies' table.
+2026-11-16 11:23:05 -INFO - __main__ - load.py:60 - data load pipeline completed successfully.
