@@ -3,7 +3,9 @@ import os
 import json
 import time
 from dotenv import load_dotenv
+from logger_config import get_logger
 
+logger = get_logger(__name__)
 load_dotenv()
 
 api_key = os.getenv("API_KEY")
@@ -26,14 +28,15 @@ def fetch_from_api(language):
       data = response.json() 
       temp_list.extend(data['results']) # Extend the temporary list with the results from the current page
       count_results += len(data["results"]) 
+      logger.info(f"fetched page {page}, total results fetched so far: {count_results}")
     except requests.exceptions.RequestException as e:
-      print(f"error fetching page {page}: {e}")
+      logger.warning(f"error fetching page {page}: {e}")
     time.sleep(0.4) # Sleep for 0.4 seconds to avoid hitting the API rate limit
     
 
   with open(file_name, "w", encoding = "utf-8") as f:
     json.dump(temp_list, f, indent = 4, ensure_ascii = False) 
-  print(f"\nSaved {count_results} results to {file_name}")
+  logger.info(f"\nSaved {count_results} results to {file_name}")
 
 
 fetch_from_api("en")
