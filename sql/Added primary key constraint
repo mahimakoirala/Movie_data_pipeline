@@ -1,8 +1,0 @@
-ALTER TABLE dim_movies
-ADD CONSTRAINT pk_dim_movies PRIMARY KEY (movie_id);
-GO
-ALTER TABLE dim_genres
-ADD CONSTRAINT pk_dim_genres PRIMARY KEY (genre_id);
-
-ALTER TABLE dim_cast
-ADD CONSTRAINT pk_dim_cast PRIMARY KEY (cast_id);
