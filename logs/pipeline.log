@@ -98,3 +98,43 @@
 2026-11-16 11:23:05 -INFO - __main__ - load.py:45 - data 4817 rows into 'bridge_cast' table in postgres
 2026-11-16 11:23:05 -INFO - __main__ - load.py:50 - loaded 1004 rows into 'fact_movies' table.
 2026-11-16 11:23:05 -INFO - __main__ - load.py:60 - data load pipeline completed successfully.
+2026-11-19 11:03:28 -INFO - __main__ - load.py:59 - starting data load pipeline....
+2026-11-19 11:03:28 -INFO - transform - transform.py:20 - First movie record: {'id': 755898, 'title': 'War of the Worlds', 'original_language': 'en', 'release_date': '2025-07-29', 'budget': 10000000, 'revenue': 0, 'runtime': 91, 'popularity': 106.4088, 'vote_average': 4.04, 'genres': ['Science Fiction', 'Thriller'], 'cast': ['Ice Cube', 'Eva Longoria', 'Clark Gregg', 'Iman Benson', 'Henry Hunter Hall']}
+2026-11-19 11:03:28 -INFO - transform - transform.py:21 - Available keys: dict_keys(['id', 'title', 'original_language', 'release_date', 'budget', 'revenue', 'runtime', 'popularity', 'vote_average', 'genres', 'cast'])
+2026-11-19 11:03:28 -INFO - transform - transform.py:23 - loaded 495 movie details for language 'en' from  details/en_movie_details.json
+2026-11-19 11:03:28 -INFO - transform - transform.py:20 - First movie record: {'id': 1291608, 'title': 'Dhurandhar', 'original_language': 'hi', 'release_date': '2025-12-05', 'budget': 24000000, 'revenue': 136599112, 'runtime': 214, 'popularity': 16.3726, 'vote_average': 7.339, 'genres': ['Action', 'Crime', 'Thriller'], 'cast': ['Ranveer Singh', 'Akshaye Khanna', 'R. Madhavan', 'Arjun Rampal', 'Sanjay Dutt']}
+2026-11-19 11:03:28 -INFO - transform - transform.py:21 - Available keys: dict_keys(['id', 'title', 'original_language', 'release_date', 'budget', 'revenue', 'runtime', 'popularity', 'vote_average', 'genres', 'cast'])
+2026-11-19 11:03:28 -INFO - transform - transform.py:23 - loaded 509 movie details for language 'hi' from  details/hi_movie_details.json
+2026-11-19 11:03:28 -INFO - transform - transform.py:26 - total loaded movies: 1004.
+2026-11-19 11:07:28 -INFO - __main__ - load.py:59 - starting data load pipeline....
+2026-11-19 11:07:28 -INFO - transform - transform.py:20 - First movie record: {'id': 755898, 'title': 'War of the Worlds', 'original_language': 'en', 'release_date': '2025-07-29', 'budget': 10000000, 'revenue': 0, 'runtime': 91, 'popularity': 106.4088, 'vote_average': 4.04, 'genres': ['Science Fiction', 'Thriller'], 'cast': ['Ice Cube', 'Eva Longoria', 'Clark Gregg', 'Iman Benson', 'Henry Hunter Hall']}
+2026-11-19 11:07:28 -INFO - transform - transform.py:21 - Available keys: dict_keys(['id', 'title', 'original_language', 'release_date', 'budget', 'revenue', 'runtime', 'popularity', 'vote_average', 'genres', 'cast'])
+2026-11-19 11:07:28 -INFO - transform - transform.py:23 - loaded 495 movie details for language 'en' from  details/en_movie_details.json
+2026-11-19 11:07:28 -INFO - transform - transform.py:20 - First movie record: {'id': 1291608, 'title': 'Dhurandhar', 'original_language': 'hi', 'release_date': '2025-12-05', 'budget': 24000000, 'revenue': 136599112, 'runtime': 214, 'popularity': 16.3726, 'vote_average': 7.339, 'genres': ['Action', 'Crime', 'Thriller'], 'cast': ['Ranveer Singh', 'Akshaye Khanna', 'R. Madhavan', 'Arjun Rampal', 'Sanjay Dutt']}
+2026-11-19 11:07:28 -INFO - transform - transform.py:21 - Available keys: dict_keys(['id', 'title', 'original_language', 'release_date', 'budget', 'revenue', 'runtime', 'popularity', 'vote_average', 'genres', 'cast'])
+2026-11-19 11:07:28 -INFO - transform - transform.py:23 - loaded 509 movie details for language 'hi' from  details/hi_movie_details.json
+2026-11-19 11:07:28 -INFO - transform - transform.py:26 - total loaded movies: 1004.
+2026-11-19 11:07:34 -INFO - transform - transform.py:123 - dim_movies: No null values found.
+2026-11-19 11:07:34 -INFO - transform - transform.py:123 - dim_genres: No null values found.
+2026-11-19 11:07:34 -INFO - transform - transform.py:123 - dim_cast: No null values found.
+2026-11-19 11:07:34 -WARNING - transform - transform.py:125 - fact_movies null counts:
+movie_id          0
+release_date      0
+popularity        0
+revenue           0
+runtime          37
+vote_average      0
+budget          468
+dtype: int64
+2026-11-19 11:07:34 -INFO - transform - transform.py:123 - bridge_genres: No null values found.
+2026-11-19 11:07:34 -INFO - transform - transform.py:123 - bridge_cast: No null values found.
+2026-11-19 11:07:34 -INFO - quality - quality.py:16 - dim_movies: no duplicates movie IDs found.
+2026-11-19 11:07:34 -INFO - quality - quality.py:23 - fact_movies: no negative bidgets
+2026-11-19 11:07:34 -INFO - quality - quality.py:30 - fact_movies: vote_average is within the valid range
+2026-11-19 11:07:37 -INFO - __main__ - load.py:50 - data 928 rows into 'dim_movies' table in postgres
+2026-11-19 11:07:38 -INFO - __main__ - load.py:50 - data 19 rows into 'dim_genres' table in postgres
+2026-11-19 11:07:38 -INFO - __main__ - load.py:50 - data 2710 rows into 'dim_cast' table in postgres
+2026-11-19 11:07:38 -INFO - __main__ - load.py:50 - data 2462 rows into 'bridge_genres' table in postgres
+2026-11-19 11:07:39 -INFO - __main__ - load.py:50 - data 4817 rows into 'bridge_cast' table in postgres
+2026-11-19 11:07:40 -INFO - __main__ - load.py:55 - loaded 1004 rows into 'fact_movies' table.
+2026-11-19 11:07:40 -INFO - __main__ - load.py:65 - data load pipeline completed successfully.

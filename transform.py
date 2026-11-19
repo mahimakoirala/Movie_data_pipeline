@@ -50,7 +50,9 @@ def create_dim_movies(all_movie_details):
           'original_language': movie['original_language'],
         }
         dim_movies.append(temp_dict)
-    return dim_movies
+    df = pd.DataFrame(dim_movies)
+    df = df.drop_duplicates(subset = ['movie_id'], keep = 'first')  # Remove duplicates based on 'id' column
+    return df.to_dict(orient = 'records')  # Convert DataFrame back to list of dictionaries
 
 def create_dim_genres(all_movie_details):
     all_genre_names = []
@@ -146,8 +148,8 @@ def create_dataframes(all_movie_details):
     #type fix and handling null values
     fact_movies_df['release_date'] = pd.to_datetime(fact_movies_df['release_date'])
     fact_movies_df['revenue'] = (fact_movies_df['revenue'].fillna(0).astype(int))
-    fact_movies_df['runtime'].replace(0, pd.NA).astype('Int64')  # Replace 0 with NA and convert to nullable integer type
-    fact_movies_df['budget'].replace(0, pd.NA).astype('Int64')  # Replace 0 with NA and convert to nullable integer type
+    fact_movies_df['runtime'] = fact_movies_df['runtime'].replace(0, pd.NA).astype('Int64')  # Replace 0 with NA and convert to nullable integer type
+    fact_movies_df['budget'] = fact_movies_df['budget'].replace(0, pd.NA).astype('Int64')  # Replace 0 with NA and convert to nullable integer type
 
   
     #popularity and vore_average stay as float
